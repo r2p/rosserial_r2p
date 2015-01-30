@@ -1,0 +1,24 @@
+<package>
+  <name>rosserial_r2p</name>
+  <version>0.1.1</version>
+  <description>
+    Libraries and examples for ROSserial usage on R2P modules.
+  </description>
+  <author>Martino Migliavacca</author>
+  <author>Ludovico Russo</author>
+  <maintainer email="martino.migliavacca@gmail.com">Martino Migliavacca</maintainer>
+  <maintainer email="ludus.russo@gmail.com">Ludovico Russo</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/rosserial_r2p</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>rosserial_msgs</run_depend>
+  <run_depend>rosserial_client</run_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
+
+
