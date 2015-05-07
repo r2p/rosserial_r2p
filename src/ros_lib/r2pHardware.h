@@ -55,7 +55,9 @@ class R2PHardware {
 #if USE_USB_SERIAL
       iostream = &SDU1;
 #else
+#if STM32_SERIAL_USE_USART3
       iostream = &SD3;
+#endif
 #endif
       baud_ = 57600;
     }
