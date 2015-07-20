@@ -26,5 +26,7 @@ install(PROGRAMS src/rosserial_r2p/make_libraries.py
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
-
+install(DIRECTORY launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
 
