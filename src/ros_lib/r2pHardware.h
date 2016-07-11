@@ -88,7 +88,7 @@ class R2PHardware {
       sdWrite(iostream, data, length);
     }
 
-    unsigned long time(){return ((chTimeNow() / CH_FREQUENCY) * 1000L);}
+    unsigned long time(){return ((chVTGetSystemTimeX() / CH_CFG_ST_FREQUENCY) * 1000L);}
 
   protected:
     SERIAL_CLASS* iostream;
